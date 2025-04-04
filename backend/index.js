@@ -22,11 +22,11 @@ async function createOrder(productId, externalVariantId, recipient) {
             recipient, 
             "items": [
                 {
-                  "external_variant_id": "123456789",  // ID esterno della variante
-                  "quantity": 1,                        // Quantità
-                  "product_id": 987654321,               // ID del prodotto (opzionale, se necessario)
-                  "variant_id": 987654322,               // ID interno della variante in Printful (se necessario)
-                  "retail_price": 19.99                  // Prezzo al dettaglio (opzionale)
+                  "external_variant_id": "123456789",  
+                  "quantity": 1,                        
+                  "product_id": 987654321,               
+                  "variant_id": 987654322,               
+                  "retail_price": 19.99                  
                 }
               ],
             source: "store" 

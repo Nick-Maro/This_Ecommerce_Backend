@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const API_KEY = process.env.API_KEY;
 
-// Middleware
+
 app.use(cors()); 
 app.use(express.json()); 
 
@@ -127,7 +127,6 @@ app.get('/api/products/:id', async (req, res) => {
 
 
 
-// Avvia il server
 app.listen(PORT, () => {
     console.log(`Server avviato su http://localhost:${PORT}`);
 });
